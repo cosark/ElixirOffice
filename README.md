@@ -96,6 +96,10 @@ Then create a document or open a .docx, .xlsx, .pptx, .odt, .ods or .odp file, e
 
 On a Linux host with Docker and a public DNS name, download the deployment bundle from the [server release](https://github.com/leag1234/elixiroffice/releases/tag/v0.1.1) and follow its install guide: an init script generates the secrets, `docker compose up -d` downloads the image from `ghcr.io/leag1234/elixiroffice-server` and starts the suite behind HTTPS. The start page (local files, Murena Workspace and Nextcloud accounts) is off by default and has no user accounts of its own: enable it on a trusted network, behind a VPN or behind your own authentication. AI is off unless you configure it.
 
+## One-click deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/ElixirOffice/)
+
 ## Features
 
 Feature by feature, compared with LibreOffice and ONLYOFFICE: [docs/differences.md](docs/differences.md).
